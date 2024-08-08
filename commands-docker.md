@@ -4,6 +4,18 @@
 docker images
 ```
 
+### Deletar uma imagem
+
+```bash
+docker rmi name_image
+```
+
+ou para forçar a deleção
+
+```bash
+docker rmi -f name_image
+```
+
 ### Listar os contêiners
 
 ```bash
