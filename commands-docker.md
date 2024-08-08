@@ -33,3 +33,7 @@ docker exec -it -u root id-do-conteiner sh
 ```bash
 sudo docker run -it app sh
 ```
+### Construir a imagem antes de executar o conteiner em segundo plano (flag -d)
+```bash
+docker-compose up --build -d
+```
