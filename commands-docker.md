@@ -49,3 +49,9 @@ sudo docker run -it app sh
 ```bash
 docker-compose up --build -d
 ```
+
+### Construir imagens sem usar o cache
+
+```bash
+docker compose build
+```
