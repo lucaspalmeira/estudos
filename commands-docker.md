@@ -55,3 +55,18 @@ docker-compose up --build -d
 ```bash
 docker compose build
 ```
+
+### Listar Volumes
+```bash
+docker volume ls
+```
+
+### Inspecionar volume
+```bash
+docker volume inspect mongo-data
+```
+
+### Apagar volume
+```bash
+docker volume rm mongo-data
+```
